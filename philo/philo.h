@@ -6,7 +6,7 @@
 /*   By: aelsiddi <aelsiddi@student.42.ae>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/07 14:56:54 by aelsiddi          #+#    #+#             */
-/*   Updated: 2023/01/27 19:18:21 by aelsiddi         ###   ########.fr       */
+/*   Updated: 2023/01/29 23:24:30 by aelsiddi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -68,5 +68,9 @@ void	ft_error(t_info *info, t_philo *ph, int flag);
 void	init(int ac, char **av );
 void	init_philo(t_info *info);
 void	t_creat(t_info *info, t_philo *ph);
+
+//********* flow *****************//
+void*	routine(void *incoming);
+void printer(t_philo *ph, int  flag);
 
 #endif

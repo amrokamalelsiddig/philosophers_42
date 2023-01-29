@@ -6,7 +6,7 @@
 #    By: aelsiddi <aelsiddi@student.42.ae>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/01/07 14:54:40 by aelsiddi          #+#    #+#              #
-#    Updated: 2023/01/24 15:57:37 by aelsiddi         ###   ########.fr        #
+#    Updated: 2023/01/29 23:22:33 by aelsiddi         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -44,7 +44,7 @@
 
 NAME = philo
 
-FILES =	philo.c helper.c error.c init.c
+FILES =	philo.c helper.c error.c init.c flow.c
 
 HEADERS = ./philo.h
 

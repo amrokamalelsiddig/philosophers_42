@@ -6,7 +6,7 @@
 /*   By: aelsiddi <aelsiddi@student.42.ae>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/07 14:58:59 by aelsiddi          #+#    #+#             */
-/*   Updated: 2023/01/29 22:57:16 by aelsiddi         ###   ########.fr       */
+/*   Updated: 2023/01/29 23:23:11 by aelsiddi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -99,32 +99,4 @@ int dead_finder(t_philo *ph)
 			return (0);
 	}
 	return (1);
-}
-
-void printer(t_philo *ph, int  flag)
-{
-	pthread_mutex_lock(&ph->info->print_lock);
-	printf("%ld",curr_time(&ph->start));
-	printf(" ");
-	printf("%d",ph->ph_id);
-	if (flag == 1)
-	printf(" has taken a fork\n");
-	if (flag == 2)
-	{
-		printf(" is eating now\n");
-		ph->last_meal = curr_time(&ph->start);	
-	}
-	if (flag == 3)
-	{
-		printf(" is sleeping\n");
-		usleep(ph->info->time_to_sleep);
-	}
-	if (flag == 4)
-		printf(" is thinking\n");
-	if (flag == 5)
-	{
-		printf(" is dead\n");
-	}
-	pthread_mutex_unlock(&ph->info->print_lock);
-	
 }

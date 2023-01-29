@@ -1,131 +1,61 @@
-**************** threading ******************
-13 20 has taken a fork
-13 20 is eating now
-13 19 has taken a fork
-13 19 is eating now
-17 20 is sleeping
-18 20 has taken a fork
-18 20 is eating now
-18 19 is sleeping
-19 19 has taken a fork
-19 19 is eating now
-19 20 is sleeping
-19 20 has taken a fork
-19 20 is eating now
-19 20 is sleeping
-20 20 has taken a fork
-20 20 is eating now
-20 19 is sleeping
-21 19 has taken a fork
-21 19 is eating now
-21 20 is sleeping
-21 20 has taken a fork
-21 20 is eating now
-21 19 is sleeping
-22 20 is sleeping
-22 20 has taken a fork
-22 20 is eating now
-22 19 has taken a fork
-22 19 is eating now
-22 20 is sleeping
-22 20 has taken a fork
-22 19 is sleeping
-23 20 is eating now
-23 19 has taken a fork
-23 19 is eating now
-23 20 is sleeping
-23 19 is sleeping
-23 19 has taken a fork
-23 20 has taken a fork
-23 20 is eating now
-23 19 is eating now
-24 20 is sleeping
-24 20 has taken a fork
-24 20 is eating now
-24 19 is sleeping
-24 20 is sleeping
-24 19 has taken a fork
-24 19 is eating now
-24 20 has taken a fork
-25 20 is eating now
-25 19 is sleeping
-25 19 has taken a fork
-25 19 is eating now
-25 20 is sleeping
-25 20 has taken a fork
-25 20 is eating now
-25 19 is sleeping
-26 19 has taken a fork
-26 19 is eating now
-26 20 is sleeping
-26 20 has taken a fork
-26 19 is sleeping
-26 19 has taken a fork
-26 19 is eating now
-26 20 is eating now
-26 19 is sleeping
-27 19 has taken a fork
-27 19 is eating now
-27 20 is sleeping
-27 20 has taken a fork
-27 20 is eating now
-27 19 is sleeping
-27 20 is sleeping
+16 20 has taken a fork
+16 20 is eating now
+28 20 is sleeping
 28 20 has taken a fork
 28 20 is eating now
 28 19 has taken a fork
 28 19 is eating now
 28 20 is sleeping
-28 20 has taken a fork
-28 20 is eating now
-28 19 is sleeping
-28 20 is sleeping
+29 20 has taken a fork
+29 20 is eating now
+29 19 is sleeping
+29 20 is sleeping
 29 20 has taken a fork
 29 20 is eating now
 29 19 has taken a fork
 29 19 is eating now
 29 20 is sleeping
-29 20 has taken a fork
-29 20 is eating now
-29 19 is sleeping
-30 19 has taken a fork
-30 19 is eating now
-30 20 is sleeping
 30 20 has taken a fork
 30 20 is eating now
 30 19 is sleeping
-30 19 has taken a fork
-30 19 is eating now
 30 20 is sleeping
 30 20 has taken a fork
 30 20 is eating now
-30 19 is sleeping
+30 19 has taken a fork
+30 19 is eating now
+31 20 is sleeping
+31 20 has taken a fork
+31 20 is eating now
+31 19 is sleeping
 31 20 is sleeping
 31 20 has taken a fork
 31 20 is eating now
 31 19 has taken a fork
 31 19 is eating now
-31 20 is sleeping
-32 20 has taken a fork
-32 20 is eating now
-32 19 is sleeping
-32 19 has taken a fork
-32 19 is eating now
 32 20 is sleeping
 32 20 has taken a fork
 32 20 is eating now
 32 19 is sleeping
+32 20 is sleeping
+32 20 has taken a fork
+32 20 is eating now
+32 19 has taken a fork
+32 19 is eating now
+33 20 is sleeping
+33 20 has taken a fork
+33 20 is eating now
+33 19 is sleeping
+33 20 is sleeping
+33 20 has taken a fork
+33 20 is eating now
 33 19 has taken a fork
 33 19 is eating now
-33 20 is sleeping
-33 19 is sleeping
-34 19 has taken a fork
-34 20 has taken a fork
-34 20 is eating now
-34 19 is eating now
 34 20 is sleeping
 34 20 has taken a fork
 34 20 is eating now
+34 19 is sleeping
+34 19 has taken a fork
+34 19 is eating now
 34 20 is sleeping
 35 20 has taken a fork
 35 20 is eating now
@@ -135,11 +65,14 @@
 35 20 is sleeping
 35 20 has taken a fork
 35 20 is eating now
+35 19 is sleeping
+35 19 has taken a fork
+35 19 is eating now
 35 20 is sleeping
 36 20 has taken a fork
+36 20 is eating now
 36 19 is sleeping
 36 19 has taken a fork
-36 20 is eating now
 36 19 is eating now
 36 20 is sleeping
 36 20 has taken a fork
@@ -151,15 +84,24 @@
 37 20 has taken a fork
 37 20 is eating now
 37 19 is sleeping
+37 19 has taken a fork
+37 19 is eating now
+37 20 is sleeping
+37 20 has taken a fork
+37 20 is eating now
+37 19 is sleeping
 38 19 has taken a fork
 38 19 is eating now
 38 20 is sleeping
 38 20 has taken a fork
 38 20 is eating now
+38 19 is sleeping
+38 19 has taken a fork
+38 19 is eating now
 38 20 is sleeping
-39 20 has taken a fork
-39 20 is eating now
-39 19 is sleeping
+38 20 has taken a fork
+38 20 is eating now
+38 19 is sleeping
 39 19 has taken a fork
 39 19 is eating now
 39 20 is sleeping
@@ -175,44 +117,53 @@
 40 19 has taken a fork
 40 19 is eating now
 40 20 is sleeping
-40 20 has taken a fork
-40 20 is eating now
-40 19 is sleeping
-41 20 is sleeping
 41 20 has taken a fork
 41 20 is eating now
+41 19 is sleeping
 41 19 has taken a fork
 41 19 is eating now
 41 20 is sleeping
 41 20 has taken a fork
 41 20 is eating now
 41 19 is sleeping
+41 19 has taken a fork
+41 19 is eating now
+41 20 is sleeping
+42 20 has taken a fork
+42 20 is eating now
+42 19 is sleeping
 42 19 has taken a fork
 42 19 is eating now
 42 20 is sleeping
 42 20 has taken a fork
 42 20 is eating now
 42 19 is sleeping
+42 19 has taken a fork
+42 19 is eating now
 42 20 is sleeping
-43 20 has taken a fork
-43 20 is eating now
-43 19 has taken a fork
-43 19 is eating now
-43 20 is sleeping
 43 20 has taken a fork
 43 20 is eating now
 43 19 is sleeping
 43 19 has taken a fork
 43 19 is eating now
 43 20 is sleeping
-44 20 has taken a fork
-44 20 is eating now
-44 19 is sleeping
+43 20 has taken a fork
+43 20 is eating now
+43 19 is sleeping
+44 19 has taken a fork
+44 19 is eating now
 44 20 is sleeping
 44 20 has taken a fork
 44 20 is eating now
+44 19 is sleeping
 44 19 has taken a fork
 44 19 is eating now
+44 20 is sleeping
+44 20 has taken a fork
+44 20 is eating now
+44 19 is sleeping
+45 19 has taken a fork
+45 19 is eating now
 45 20 is sleeping
 45 20 has taken a fork
 45 20 is eating now
@@ -232,8 +183,8 @@
 46 19 has taken a fork
 46 19 is eating now
 46 20 is sleeping
-46 20 has taken a fork
-46 20 is eating now
+47 20 has taken a fork
+47 20 is eating now
 47 19 is sleeping
 47 19 has taken a fork
 47 19 is eating now
@@ -247,20 +198,26 @@
 48 20 has taken a fork
 48 20 is eating now
 48 19 is sleeping
-48 20 is sleeping
-48 20 has taken a fork
-48 20 is eating now
 48 19 has taken a fork
 48 19 is eating now
 48 20 is sleeping
-49 20 has taken a fork
-49 19 is sleeping
+48 20 has taken a fork
+48 20 is eating now
+48 19 is sleeping
 49 19 has taken a fork
 49 19 is eating now
+49 20 is sleeping
+49 20 has taken a fork
 49 20 is eating now
 49 19 is sleeping
 49 19 has taken a fork
 49 19 is eating now
+49 20 is sleeping
+49 20 has taken a fork
+49 20 is eating now
+49 19 is sleeping
+50 19 has taken a fork
+50 19 is eating now
 50 20 is sleeping
 50 20 has taken a fork
 50 20 is eating now
@@ -271,80 +228,134 @@
 50 20 has taken a fork
 50 20 is eating now
 50 19 is sleeping
-51 20 is sleeping
 51 19 has taken a fork
 51 19 is eating now
+51 20 is sleeping
 51 20 has taken a fork
 51 20 is eating now
 51 19 is sleeping
+51 19 has taken a fork
+51 19 is eating now
 51 20 is sleeping
-52 19 has taken a fork
-52 19 is eating now
 52 20 has taken a fork
 52 20 is eating now
 52 19 is sleeping
+52 19 has taken a fork
+52 19 is eating now
 52 20 is sleeping
 52 20 has taken a fork
 52 20 is eating now
+52 19 is sleeping
 52 19 has taken a fork
 52 19 is eating now
+52 20 is sleeping
+53 20 has taken a fork
+53 20 is eating now
+53 19 is sleeping
+53 19 has taken a fork
+53 19 is eating now
 53 20 is sleeping
 53 20 has taken a fork
 53 20 is eating now
 53 19 is sleeping
+53 19 has taken a fork
+53 19 is eating now
 53 20 is sleeping
 54 20 has taken a fork
 54 20 is eating now
+54 19 is sleeping
 54 19 has taken a fork
 54 19 is eating now
 54 20 is sleeping
 54 20 has taken a fork
 54 20 is eating now
+54 19 is sleeping
+54 19 has taken a fork
+54 19 is eating now
 54 20 is sleeping
 55 20 has taken a fork
 55 20 is eating now
+55 19 is sleeping
+55 19 has taken a fork
+55 19 is eating now
 55 20 is sleeping
 55 20 has taken a fork
 55 20 is eating now
-55 20 is sleeping
-56 20 has taken a fork
-56 20 is eating now
+55 19 is sleeping
+56 19 has taken a fork
+56 19 is eating now
 56 20 is sleeping
 56 20 has taken a fork
 56 20 is eating now
+56 19 is sleeping
+56 19 has taken a fork
+56 19 is eating now
 56 20 is sleeping
-57 20 has taken a fork
-57 20 is eating now
+56 20 has taken a fork
+56 20 is eating now
+56 19 is sleeping
+57 19 has taken a fork
+57 19 is eating now
 57 20 is sleeping
 57 20 has taken a fork
 57 20 is eating now
+57 19 is sleeping
+57 19 has taken a fork
+57 19 is eating now
 57 20 is sleeping
-58 20 has taken a fork
-58 20 is eating now
+57 20 has taken a fork
+57 20 is eating now
+57 19 is sleeping
+58 19 has taken a fork
+58 19 is eating now
 58 20 is sleeping
 58 20 has taken a fork
 58 20 is eating now
-59 20 is sleeping
+58 19 is sleeping
+58 19 has taken a fork
+58 19 is eating now
+58 20 is sleeping
 59 20 has taken a fork
 59 20 is eating now
+59 19 is sleeping
+59 19 has taken a fork
+59 19 is eating now
 59 20 is sleeping
-59 20 has taken a fork
-59 20 is eating now
-60 20 is sleeping
 60 20 has taken a fork
 60 20 is eating now
+60 19 is sleeping
+60 19 has taken a fork
+60 19 is eating now
 60 20 is sleeping
-60 20 has taken a fork
-60 20 is eating now
+61 20 has taken a fork
+61 20 is eating now
+61 19 is sleeping
+61 19 has taken a fork
+61 19 is eating now
+61 20 is sleeping
+61 20 has taken a fork
+61 20 is eating now
+61 19 is sleeping
+61 19 has taken a fork
+61 19 is eating now
 61 20 is sleeping
 62 20 has taken a fork
 62 20 is eating now
 62 19 is sleeping
 62 19 has taken a fork
 62 19 is eating now
+62 20 is sleeping
+62 20 has taken a fork
+62 20 is eating now
 62 19 is sleeping
-62 19 has taken a fork
-62 19 is eating now
+63 19 has taken a fork
+63 19 is eating now
+63 20 is sleeping
+63 20 has taken a fork
+63 20 is eating now
+63 19 is sleeping
+63 19 has taken a fork
+63 19 is eating now
 63 20 is sleeping
 63 20 has taken a fork
 63 20 is eating now
@@ -354,6 +365,15 @@
 64 20 is sleeping
 64 20 has taken a fork
 64 20 is eating now
+64 19 is sleeping
+64 19 has taken a fork
+64 19 is eating now
+64 20 is sleeping
+64 20 has taken a fork
+64 20 is eating now
+64 19 is sleeping
+65 19 has taken a fork
+65 19 is eating now
 65 20 is sleeping
 65 20 has taken a fork
 65 20 is eating now
@@ -362,122 +382,35 @@
 65 19 is eating now
 65 20 is sleeping
 65 20 has taken a fork
-66 20 is eating now
-66 19 is sleeping
+65 20 is eating now
+65 19 is sleeping
 66 19 has taken a fork
 66 19 is eating now
 66 20 is sleeping
 66 20 has taken a fork
 66 20 is eating now
 66 19 is sleeping
+66 19 has taken a fork
+66 19 is eating now
 66 20 is sleeping
-67 20 has taken a fork
-67 20 is eating now
-67 19 has taken a fork
-67 19 is eating now
-67 20 is sleeping
 67 20 has taken a fork
 67 20 is eating now
 67 19 is sleeping
 67 19 has taken a fork
 67 19 is eating now
 67 20 is sleeping
-68 20 has taken a fork
-68 20 is eating now
-68 19 is sleeping
-68 20 is sleeping
-68 19 has taken a fork
-68 19 is eating now
-68 20 has taken a fork
-68 20 is eating now
-68 19 is sleeping
-69 20 is sleeping
-69 20 has taken a fork
-69 20 is eating now
-69 19 has taken a fork
-69 19 is eating now
-69 20 is sleeping
-70 20 has taken a fork
-70 20 is eating now
-70 19 is sleeping
-70 19 has taken a fork
-70 19 is eating now
-70 20 is sleeping
-71 20 has taken a fork
-71 20 is eating now
-71 19 is sleeping
-71 19 has taken a fork
-71 19 is eating now
-71 20 is sleeping
-71 19 is sleeping
-71 19 has taken a fork
-71 19 is eating now
-71 20 has taken a fork
-71 20 is eating now
-72 19 is sleeping
-72 19 has taken a fork
-72 19 is eating now
-72 20 is sleeping
-72 20 has taken a fork
-72 20 is eating now
-72 19 is sleeping
-73 19 has taken a fork
-73 19 is eating now
-73 20 is sleeping
-73 20 has taken a fork
-73 20 is eating now
-73 19 is sleeping
-73 19 has taken a fork
-73 19 is eating now
-73 20 is sleeping
-73 19 is sleeping
-74 19 has taken a fork
-74 19 is eating now
-74 20 has taken a fork
-74 20 is eating now
-74 19 is sleeping
-74 20 is sleeping
-74 20 has taken a fork
-74 20 is eating now
-74 19 has taken a fork
-74 19 is eating now
-75 20 is sleeping
-75 19 is sleeping
-75 19 has taken a fork
-75 19 is eating now
-75 20 has taken a fork
-75 20 is eating now
-75 19 is sleeping
-76 19 has taken a fork
-76 19 is eating now
-76 20 is sleeping
-76 20 has taken a fork
-76 20 is eating now
-76 19 is sleeping
-76 20 is sleeping
-77 20 has taken a fork
-77 20 is eating now
-77 19 has taken a fork
-77 19 is eating now
-77 20 is sleeping
-77 20 has taken a fork
-77 20 is eating now
-77 19 is sleeping
-77 20 is sleeping
-78 20 has taken a fork
-78 20 is eating now
+67 20 has taken a fork
+67 20 is eating now
+67 19 is sleeping
 78 20 is sleeping
 78 20 has taken a fork
 78 20 is eating now
 78 19 has taken a fork
 78 19 is eating now
-78 20 is sleeping
-79 20 has taken a fork
-79 20 is eating now
+79 20 is sleeping
 79 19 is sleeping
 79 19 has taken a fork
 79 19 is eating now
-79 20 is sleeping
 79 20 has taken a fork
 79 20 is eating now
 79 19 is sleeping
@@ -487,12 +420,9 @@
 80 19 has taken a fork
 80 19 is eating now
 80 20 is sleeping
-80 20 has taken a fork
-80 20 is eating now
 80 19 is sleeping
 81 19 has taken a fork
 81 19 is eating now
-81 20 is sleeping
 81 20 has taken a fork
 81 20 is eating now
 81 19 is sleeping
@@ -500,71 +430,35 @@
 81 19 is eating now
 81 20 is sleeping
 81 19 is sleeping
-82 19 has taken a fork
-82 19 is eating now
 82 20 has taken a fork
 82 20 is eating now
-82 19 is sleeping
 82 19 has taken a fork
 82 19 is eating now
 82 20 is sleeping
+82 20 has taken a fork
+82 20 is eating now
+82 19 is sleeping
+83 20 is sleeping
+83 19 has taken a fork
+83 19 is eating now
 83 20 has taken a fork
 83 20 is eating now
 83 19 is sleeping
-83 20 is sleeping
-83 20 has taken a fork
-83 20 is eating now
-83 19 has taken a fork
-83 19 is eating now
-83 20 is sleeping
-84 19 is sleeping
-84 20 has taken a fork
-84 20 is eating now
 84 19 has taken a fork
 84 19 is eating now
 84 20 is sleeping
-84 20 has taken a fork
-84 20 is eating now
-84 19 is sleeping
-85 20 is sleeping
-85 20 has taken a fork
-85 20 is eating now
+85 19 is sleeping
 85 19 has taken a fork
 85 19 is eating now
-85 20 is sleeping
+85 20 has taken a fork
+85 20 is eating now
 85 19 is sleeping
-86 19 has taken a fork
-86 19 is eating now
-86 20 has taken a fork
-86 20 is eating now
-86 19 is sleeping
-86 19 has taken a fork
-86 19 is eating now
-86 20 is sleeping
-87 20 has taken a fork
-87 20 is eating now
-87 19 is sleeping
-87 19 has taken a fork
-87 19 is eating now
-87 20 is sleeping
-87 20 has taken a fork
-87 20 is eating now
-87 19 is sleeping
-87 19 has taken a fork
-87 19 is eating now
-87 20 is sleeping
-88 19 is sleeping
-88 20 has taken a fork
-88 20 is eating now
-88 19 has taken a fork
-88 19 is eating now
-88 20 is sleeping
-88 20 has taken a fork
-88 20 is eating now
-89 19 is sleeping
+89 19 has taken a fork
+89 19 is eating now
 89 20 is sleeping
 89 20 has taken a fork
 89 20 is eating now
+89 19 is sleeping
 89 19 has taken a fork
 89 19 is eating now
 89 20 is sleeping
@@ -572,89 +466,65 @@
 90 20 is eating now
 90 19 is sleeping
 90 19 has taken a fork
-90 20 is sleeping
 90 19 is eating now
+90 20 is sleeping
 90 20 has taken a fork
 90 20 is eating now
 90 19 is sleeping
-91 20 is sleeping
 91 19 has taken a fork
 91 19 is eating now
+91 20 is sleeping
 91 20 has taken a fork
 91 20 is eating now
 91 19 is sleeping
+91 19 has taken a fork
+91 19 is eating now
 91 20 is sleeping
-92 20 has taken a fork
-92 20 is eating now
+91 20 has taken a fork
+91 20 is eating now
+91 19 is sleeping
 92 19 has taken a fork
 92 19 is eating now
 92 20 is sleeping
+92 20 has taken a fork
+92 20 is eating now
 92 19 is sleeping
 92 19 has taken a fork
+92 19 is eating now
+92 20 is sleeping
+92 20 has taken a fork
+92 20 is eating now
+92 19 is sleeping
+93 19 has taken a fork
 93 19 is eating now
+93 20 is sleeping
 93 20 has taken a fork
 93 20 is eating now
 93 19 is sleeping
 93 19 has taken a fork
 93 19 is eating now
 93 20 is sleeping
-93 19 is sleeping
-94 20 has taken a fork
-94 20 is eating now
-94 19 has taken a fork
-94 19 is eating now
-94 20 is sleeping
 94 20 has taken a fork
 94 20 is eating now
 94 19 is sleeping
-94 19 has taken a fork
-94 19 is eating now
-94 20 is sleeping
-95 19 is sleeping
-95 19 has taken a fork
-95 19 is eating now
-95 20 has taken a fork
-95 20 is eating now
-95 19 is sleeping
-96 20 is sleeping
-96 20 has taken a fork
-96 20 is eating now
-96 19 has taken a fork
-96 19 is eating now
-96 20 is sleeping
-96 20 has taken a fork
-96 20 is eating now
-96 19 is sleeping
-97 20 is sleeping
-97 20 has taken a fork
-97 20 is eating now
-97 19 has taken a fork
-97 19 is eating now
-97 20 is sleeping
-97 19 is sleeping
-98 19 has taken a fork
-98 19 is eating now
-98 20 has taken a fork
-98 20 is eating now
-98 19 is sleeping
-98 19 has taken a fork
-98 19 is eating now
-98 20 is sleeping
-99 20 has taken a fork
-99 20 is eating now
-99 19 is sleeping
+99 19 has taken a fork
+99 19 is eating now
 99 20 is sleeping
 99 20 has taken a fork
 99 20 is eating now
+99 19 is sleeping
 99 19 has taken a fork
 99 19 is eating now
 99 20 is sleeping
 100 20 has taken a fork
 100 20 is eating now
 100 19 is sleeping
+100 19 has taken a fork
+100 19 is eating now
 100 20 is sleeping
 100 20 has taken a fork
 100 20 is eating now
+100 19 is sleeping
 100 19 has taken a fork
 100 19 is eating now
 100 20 is sleeping
@@ -673,11 +543,14 @@
 102 20 has taken a fork
 102 20 is eating now
 102 19 is sleeping
+102 19 has taken a fork
+102 19 is eating now
 102 20 is sleeping
 102 20 has taken a fork
 102 20 is eating now
-102 19 has taken a fork
-102 19 is eating now
+102 19 is sleeping
+103 19 has taken a fork
+103 19 is eating now
 103 20 is sleeping
 103 20 has taken a fork
 103 20 is eating now
@@ -694,11 +567,11 @@
 104 20 has taken a fork
 104 20 is eating now
 104 19 is sleeping
+104 19 has taken a fork
+104 19 is eating now
 104 20 is sleeping
-105 19 has taken a fork
-105 19 is eating now
-105 20 has taken a fork
-105 20 is eating now
+104 20 has taken a fork
+104 20 is eating now
 105 19 is sleeping
 105 19 has taken a fork
 105 19 is eating now
@@ -706,15 +579,24 @@
 105 20 has taken a fork
 105 20 is eating now
 105 19 is sleeping
-106 20 is sleeping
-106 19 has taken a fork
-106 19 is eating now
+105 19 has taken a fork
+105 19 is eating now
+105 20 is sleeping
 106 20 has taken a fork
 106 20 is eating now
 106 19 is sleeping
+106 19 has taken a fork
+106 19 is eating now
+106 20 is sleeping
+106 20 has taken a fork
+106 20 is eating now
+106 19 is sleeping
+106 19 has taken a fork
+106 19 is eating now
 106 20 is sleeping
 107 20 has taken a fork
 107 20 is eating now
+107 19 is sleeping
 107 19 has taken a fork
 107 19 is eating now
 107 20 is sleeping
@@ -724,48 +606,63 @@
 108 19 has taken a fork
 108 19 is eating now
 108 20 is sleeping
-108 19 is sleeping
-108 19 has taken a fork
-108 19 is eating now
 108 20 has taken a fork
 108 20 is eating now
 108 19 is sleeping
-109 20 is sleeping
+108 19 has taken a fork
+108 19 is eating now
+108 20 is sleeping
+108 20 has taken a fork
+108 20 is eating now
+108 19 is sleeping
 109 19 has taken a fork
 109 19 is eating now
+109 20 is sleeping
 109 20 has taken a fork
 109 20 is eating now
 109 19 is sleeping
 109 19 has taken a fork
 109 19 is eating now
 109 20 is sleeping
+109 20 has taken a fork
+109 20 is eating now
+109 19 is sleeping
+110 19 has taken a fork
+110 19 is eating now
+110 20 is sleeping
 110 20 has taken a fork
 110 20 is eating now
 110 19 is sleeping
 110 19 has taken a fork
 110 19 is eating now
 110 20 is sleeping
-110 19 is sleeping
-111 20 has taken a fork
-111 20 is eating now
+110 20 has taken a fork
+110 20 is eating now
+111 19 is sleeping
 111 19 has taken a fork
 111 19 is eating now
 111 20 is sleeping
 111 20 has taken a fork
 111 20 is eating now
 111 19 is sleeping
+111 19 has taken a fork
+111 19 is eating now
 111 20 is sleeping
 112 20 has taken a fork
 112 20 is eating now
+112 19 is sleeping
 112 19 has taken a fork
 112 19 is eating now
 112 20 is sleeping
 112 20 has taken a fork
 112 20 is eating now
 112 19 is sleeping
+112 19 has taken a fork
+112 19 is eating now
 112 20 is sleeping
 113 20 has taken a fork
 113 20 is eating now
+113 19 is sleeping
 113 19 has taken a fork
 113 19 is eating now
 113 20 is sleeping
@@ -774,30 +671,42 @@
 113 19 is sleeping
 113 19 has taken a fork
 113 19 is eating now
-114 20 is sleeping
-114 19 is sleeping
-114 19 has taken a fork
-114 19 is eating now
+113 20 is sleeping
 114 20 has taken a fork
 114 20 is eating now
 114 19 is sleeping
-115 20 is sleeping
+114 19 has taken a fork
+114 19 is eating now
+114 20 is sleeping
+114 20 has taken a fork
+114 20 is eating now
+114 19 is sleeping
 115 19 has taken a fork
 115 19 is eating now
+115 20 is sleeping
 115 20 has taken a fork
 115 20 is eating now
 115 19 is sleeping
+115 19 has taken a fork
+115 19 is eating now
 115 20 is sleeping
-116 20 has taken a fork
-116 20 is eating now
+115 20 has taken a fork
+115 20 is eating now
+115 19 is sleeping
 116 19 has taken a fork
 116 19 is eating now
 116 20 is sleeping
-116 19 is sleeping
 116 20 has taken a fork
 116 20 is eating now
+116 19 is sleeping
 116 19 has taken a fork
 116 19 is eating now
+116 20 is sleeping
+116 20 has taken a fork
+116 20 is eating now
+116 19 is sleeping
+117 19 has taken a fork
+117 19 is eating now
 117 20 is sleeping
 117 20 has taken a fork
 117 20 is eating now
@@ -814,11 +723,11 @@
 118 20 has taken a fork
 118 20 is eating now
 118 19 is sleeping
+118 19 has taken a fork
+118 19 is eating now
 118 20 is sleeping
 119 20 has taken a fork
 119 20 is eating now
-119 19 has taken a fork
-119 19 is eating now
 119 19 is sleeping
 119 19 has taken a fork
 119 19 is eating now
@@ -826,21 +735,33 @@
 119 20 has taken a fork
 119 20 is eating now
 119 19 is sleeping
-120 20 is sleeping
+119 19 has taken a fork
+119 19 is eating now
+119 20 is sleeping
 120 20 has taken a fork
 120 20 is eating now
+120 19 is sleeping
 120 19 has taken a fork
 120 19 is eating now
 120 20 is sleeping
 120 20 has taken a fork
-121 20 is eating now
-121 19 is sleeping
-121 20 is sleeping
-121 20 has taken a fork
-121 20 is eating now
+120 20 is eating now
+120 19 is sleeping
 121 19 has taken a fork
 121 19 is eating now
 121 20 is sleeping
+121 20 has taken a fork
+121 20 is eating now
+121 19 is sleeping
+121 19 has taken a fork
+121 19 is eating now
+121 20 is sleeping
+121 20 has taken a fork
+121 20 is eating now
+121 19 is sleeping
+122 19 has taken a fork
+122 19 is eating now
+122 20 is sleeping
 122 20 has taken a fork
 122 20 is eating now
 122 19 is sleeping
@@ -850,24 +771,30 @@
 122 20 has taken a fork
 122 20 is eating now
 122 19 is sleeping
-122 20 is sleeping
-123 20 has taken a fork
-123 20 is eating now
 123 19 has taken a fork
 123 19 is eating now
 123 20 is sleeping
-123 19 is sleeping
 123 20 has taken a fork
 123 20 is eating now
+123 19 is sleeping
 123 19 has taken a fork
 123 19 is eating now
+123 20 is sleeping
+123 20 has taken a fork
+123 20 is eating now
+124 19 is sleeping
+124 19 has taken a fork
+124 19 is eating now
 124 20 is sleeping
 124 20 has taken a fork
 124 20 is eating now
 124 19 is sleeping
+124 19 has taken a fork
+124 19 is eating now
 124 20 is sleeping
 125 20 has taken a fork
 125 20 is eating now
+125 19 is sleeping
 125 19 has taken a fork
 125 19 is eating now
 125 20 is sleeping
@@ -877,155 +804,86 @@
 125 19 has taken a fork
 125 19 is eating now
 125 20 is sleeping
-126 19 is sleeping
 126 20 has taken a fork
 126 20 is eating now
+126 19 is sleeping
 126 19 has taken a fork
 126 19 is eating now
 126 20 is sleeping
+126 20 has taken a fork
+126 20 is eating now
 126 19 is sleeping
-127 19 has taken a fork
-127 19 is eating now
+126 19 has taken a fork
+126 19 is eating now
+126 20 is sleeping
 127 20 has taken a fork
 127 20 is eating now
 127 19 is sleeping
 127 19 has taken a fork
 127 19 is eating now
 127 20 is sleeping
-128 20 has taken a fork
-128 20 is eating now
-128 19 is sleeping
-128 20 is sleeping
+127 20 has taken a fork
+127 20 is eating now
+127 19 is sleeping
 128 19 has taken a fork
 128 19 is eating now
+128 20 is sleeping
 128 20 has taken a fork
 128 20 is eating now
 128 19 is sleeping
-129 20 is sleeping
-129 20 has taken a fork
-129 20 is eating now
+128 19 has taken a fork
+128 19 is eating now
+128 20 is sleeping
+128 20 has taken a fork
+128 20 is eating now
+128 19 is sleeping
 129 19 has taken a fork
 129 19 is eating now
 129 20 is sleeping
 129 20 has taken a fork
 129 20 is eating now
 129 19 is sleeping
-130 20 is sleeping
-130 20 has taken a fork
-130 20 is eating now
-130 19 has taken a fork
-130 19 is eating now
-130 20 is sleeping
-130 19 is sleeping
-131 19 has taken a fork
-131 19 is eating now
-131 20 has taken a fork
-131 20 is eating now
-131 19 is sleeping
+129 19 has taken a fork
+129 19 is eating now
+129 20 is sleeping
+129 20 has taken a fork
+129 20 is eating now
+129 19 is sleeping
 131 19 has taken a fork
 131 19 is eating now
 131 20 is sleeping
-132 19 is sleeping
-132 20 has taken a fork
-132 20 is eating now
-132 19 has taken a fork
-132 19 is eating now
-132 20 is sleeping
-132 20 has taken a fork
-132 20 is eating now
-132 19 is sleeping
-133 20 is sleeping
-133 19 has taken a fork
-133 19 is eating now
-133 20 has taken a fork
-133 20 is eating now
-133 19 is sleeping
-133 19 has taken a fork
-133 19 is eating now
-133 20 is sleeping
-134 20 has taken a fork
-134 20 is eating now
-134 19 is sleeping
-134 20 is sleeping
-134 19 has taken a fork
-134 19 is eating now
-134 20 has taken a fork
-134 20 is eating now
-135 19 is sleeping
-135 20 is sleeping
-135 20 has taken a fork
-135 20 is eating now
-135 19 has taken a fork
-135 19 is eating now
-135 20 is sleeping
-136 20 has taken a fork
-136 20 is eating now
-136 19 is sleeping
-136 19 has taken a fork
-136 19 is eating now
-136 20 is sleeping
-136 20 has taken a fork
-136 20 is eating now
-136 19 is sleeping
-136 20 is sleeping
-137 20 has taken a fork
-137 20 is eating now
-137 19 has taken a fork
-137 19 is eating now
-137 19 is sleeping
-137 20 is sleeping
-137 20 has taken a fork
-137 20 is eating now
-137 19 has taken a fork
-137 19 is eating now
-138 20 is sleeping
-138 20 has taken a fork
-138 20 is eating now
-138 19 is sleeping
-138 19 has taken a fork
-138 19 is eating now
-138 20 is sleeping
-139 19 is sleeping
-139 19 has taken a fork
-139 19 is eating now
-139 20 has taken a fork
-139 20 is eating now
-139 19 is sleeping
-139 19 has taken a fork
-139 19 is eating now
-139 20 is sleeping
-140 20 has taken a fork
-140 20 is eating now
-140 19 is sleeping
-140 19 has taken a fork
-140 19 is eating now
-140 20 is sleeping
-140 19 is sleeping
-141 19 has taken a fork
-141 19 is eating now
-141 20 has taken a fork
-141 20 is eating now
-141 19 is sleeping
-141 19 has taken a fork
-141 19 is eating now
-141 19 is sleeping
-142 19 has taken a fork
-142 19 is eating now
+142 20 has taken a fork
+142 20 is eating now
 142 19 is sleeping
 142 19 has taken a fork
 142 19 is eating now
+142 20 is sleeping
+142 20 has taken a fork
+142 20 is eating now
 142 19 is sleeping
-143 19 has taken a fork
-143 19 is eating now
+142 19 has taken a fork
+142 19 is eating now
+142 20 is sleeping
+143 20 has taken a fork
+143 20 is eating now
 143 19 is sleeping
 143 19 has taken a fork
 143 19 is eating now
+143 20 is sleeping
+143 20 has taken a fork
+143 20 is eating now
 143 19 is sleeping
 144 19 has taken a fork
 144 19 is eating now
+144 20 is sleeping
+144 20 has taken a fork
+144 20 is eating now
 144 19 is sleeping
 144 19 has taken a fork
 144 19 is eating now
+144 20 is sleeping
+144 20 has taken a fork
+144 20 is eating now
 144 19 is sleeping
 145 19 has taken a fork
 145 19 is eating now
@@ -1036,9 +894,9 @@
 145 19 has taken a fork
 145 19 is eating now
 145 20 is sleeping
-146 20 has taken a fork
-146 20 is eating now
-146 19 is sleeping
+145 20 has taken a fork
+145 20 is eating now
+145 19 is sleeping
 146 19 has taken a fork
 146 19 is eating now
 146 20 is sleeping
@@ -1047,7 +905,7 @@
 146 19 is sleeping
 146 19 has taken a fork
 146 19 is eating now
-147 20 is sleeping
+146 20 is sleeping
 147 20 has taken a fork
 147 20 is eating now
 147 19 is sleeping
@@ -1057,29 +915,11 @@
 147 20 has taken a fork
 147 20 is eating now
 147 19 is sleeping
-148 19 has taken a fork
-148 19 is eating now
-148 20 is sleeping
-148 20 has taken a fork
-148 20 is eating now
-148 19 is sleeping
-148 19 has taken a fork
-148 19 is eating now
-148 20 is sleeping
-148 20 has taken a fork
-148 20 is eating now
-148 19 is sleeping
 149 19 has taken a fork
 149 19 is eating now
 149 20 is sleeping
-149 20 has taken a fork
-149 20 is eating now
-149 19 is sleeping
-149 19 has taken a fork
-149 19 is eating now
-149 20 is sleeping
-149 20 has taken a fork
-149 20 is eating now
+150 20 has taken a fork
+150 20 is eating now
 150 19 is sleeping
 150 19 has taken a fork
 150 19 is eating now
@@ -1099,12 +939,6 @@
 151 20 has taken a fork
 151 20 is eating now
 151 19 is sleeping
-151 19 has taken a fork
-151 19 is eating now
-151 20 is sleeping
-152 20 has taken a fork
-152 20 is eating now
-152 19 is sleeping
 152 19 has taken a fork
 152 19 is eating now
 152 20 is sleeping
@@ -1114,6 +948,12 @@
 152 19 has taken a fork
 152 19 is eating now
 152 20 is sleeping
+152 20 has taken a fork
+152 20 is eating now
+152 19 is sleeping
+153 19 has taken a fork
+153 19 is eating now
+153 20 is sleeping
 153 20 has taken a fork
 153 20 is eating now
 153 19 is sleeping
@@ -1132,12 +972,6 @@
 154 19 has taken a fork
 154 19 is eating now
 154 20 is sleeping
-154 20 has taken a fork
-154 20 is eating now
-154 19 is sleeping
-155 19 has taken a fork
-155 19 is eating now
-155 20 is sleeping
 155 20 has taken a fork
 155 20 is eating now
 155 19 is sleeping
@@ -1147,6 +981,12 @@
 155 20 has taken a fork
 155 20 is eating now
 155 19 is sleeping
+155 19 has taken a fork
+155 19 is eating now
+155 20 is sleeping
+156 20 has taken a fork
+156 20 is eating now
+156 19 is sleeping
 156 19 has taken a fork
 156 19 is eating now
 156 20 is sleeping
@@ -1165,12 +1005,6 @@
 157 20 has taken a fork
 157 20 is eating now
 157 19 is sleeping
-157 19 has taken a fork
-157 19 is eating now
-157 20 is sleeping
-158 20 has taken a fork
-158 20 is eating now
-158 19 is sleeping
 158 19 has taken a fork
 158 19 is eating now
 158 20 is sleeping
@@ -1180,6 +1014,12 @@
 158 19 has taken a fork
 158 19 is eating now
 158 20 is sleeping
+158 20 has taken a fork
+158 20 is eating now
+158 19 is sleeping
+159 19 has taken a fork
+159 19 is eating now
+159 20 is sleeping
 159 20 has taken a fork
 159 20 is eating now
 159 19 is sleeping
@@ -1198,12 +1038,6 @@
 160 19 has taken a fork
 160 19 is eating now
 160 20 is sleeping
-160 20 has taken a fork
-160 20 is eating now
-160 19 is sleeping
-161 19 has taken a fork
-161 19 is eating now
-161 20 is sleeping
 161 20 has taken a fork
 161 20 is eating now
 161 19 is sleeping
@@ -1213,6 +1047,12 @@
 161 20 has taken a fork
 161 20 is eating now
 161 19 is sleeping
+161 19 has taken a fork
+161 19 is eating now
+161 20 is sleeping
+162 20 has taken a fork
+162 20 is eating now
+162 19 is sleeping
 162 19 has taken a fork
 162 19 is eating now
 162 20 is sleeping
@@ -1233,12 +1073,6 @@
 163 19 is sleeping
 163 19 has taken a fork
 163 19 is eating now
-163 20 is sleeping
-164 20 has taken a fork
-164 20 is eating now
-164 19 is sleeping
-164 19 has taken a fork
-164 19 is eating now
 164 20 is sleeping
 164 20 has taken a fork
 164 20 is eating now
@@ -1246,6 +1080,12 @@
 164 19 has taken a fork
 164 19 is eating now
 164 20 is sleeping
+164 20 has taken a fork
+164 20 is eating now
+164 19 is sleeping
+165 19 has taken a fork
+165 19 is eating now
+165 20 is sleeping
 165 20 has taken a fork
 165 20 is eating now
 165 19 is sleeping
@@ -1276,12 +1116,6 @@
 167 19 has taken a fork
 167 19 is eating now
 167 20 is sleeping
-167 20 has taken a fork
-167 20 is eating now
-167 19 is sleeping
-168 19 has taken a fork
-168 19 is eating now
-168 20 is sleeping
 168 20 has taken a fork
 168 20 is eating now
 168 19 is sleeping
@@ -1291,6 +1125,12 @@
 168 20 has taken a fork
 168 20 is eating now
 168 19 is sleeping
+168 19 has taken a fork
+168 19 is eating now
+168 20 is sleeping
+169 20 has taken a fork
+169 20 is eating now
+169 19 is sleeping
 169 19 has taken a fork
 169 19 is eating now
 169 20 is sleeping
@@ -1309,9 +1149,9 @@
 170 20 has taken a fork
 170 20 is eating now
 170 19 is sleeping
-170 19 has taken a fork
-170 19 is eating now
-170 20 is sleeping
+171 19 has taken a fork
+171 19 is eating now
+171 20 is sleeping
 171 20 has taken a fork
 171 20 is eating now
 171 19 is sleeping
@@ -1342,9 +1182,9 @@
 173 19 has taken a fork
 173 19 is eating now
 173 20 is sleeping
-173 20 has taken a fork
-173 20 is eating now
-173 19 is sleeping
+174 20 has taken a fork
+174 20 is eating now
+174 19 is sleeping
 174 19 has taken a fork
 174 19 is eating now
 174 20 is sleeping
@@ -1420,9 +1260,9 @@
 180 19 has taken a fork
 180 19 is eating now
 180 20 is sleeping
-180 20 has taken a fork
-180 20 is eating now
-180 19 is sleeping
+181 20 has taken a fork
+181 20 is eating now
+181 19 is sleeping
 181 19 has taken a fork
 181 19 is eating now
 181 20 is sleeping
@@ -1453,9 +1293,9 @@
 183 20 has taken a fork
 183 20 is eating now
 183 19 is sleeping
-183 19 has taken a fork
-183 19 is eating now
-183 20 is sleeping
+184 19 has taken a fork
+184 19 is eating now
+184 20 is sleeping
 184 20 has taken a fork
 184 20 is eating now
 184 19 is sleeping
@@ -1480,39 +1320,9 @@
 186 19 has taken a fork
 186 19 is eating now
 186 20 is sleeping
-186 20 has taken a fork
-186 20 is eating now
-186 19 is sleeping
-186 19 has taken a fork
-186 19 is eating now
-186 20 is sleeping
-186 20 has taken a fork
-186 20 is eating now
-186 19 is sleeping
-187 19 has taken a fork
-187 19 is eating now
-187 20 is sleeping
-187 20 has taken a fork
-187 20 is eating now
-187 19 is sleeping
-187 19 has taken a fork
-187 19 is eating now
-187 20 is sleeping
 188 20 has taken a fork
 188 20 is eating now
 188 19 is sleeping
-188 19 has taken a fork
-188 19 is eating now
-188 20 is sleeping
-188 20 has taken a fork
-188 20 is eating now
-188 19 is sleeping
-188 19 has taken a fork
-188 19 is eating now
-188 20 is sleeping
-189 20 has taken a fork
-189 20 is eating now
-189 19 is sleeping
 189 19 has taken a fork
 189 19 is eating now
 189 20 is sleeping
@@ -1522,18 +1332,18 @@
 189 19 has taken a fork
 189 19 is eating now
 189 20 is sleeping
-190 20 has taken a fork
-190 20 is eating now
-190 19 is sleeping
+189 20 has taken a fork
+189 20 is eating now
+189 19 is sleeping
 190 19 has taken a fork
 190 19 is eating now
 190 20 is sleeping
 190 20 has taken a fork
 190 20 is eating now
 190 19 is sleeping
-191 19 has taken a fork
-191 19 is eating now
-191 20 is sleeping
+190 19 has taken a fork
+190 19 is eating now
+190 20 is sleeping
 191 20 has taken a fork
 191 20 is eating now
 191 19 is sleeping
@@ -1543,9 +1353,9 @@
 191 20 has taken a fork
 191 20 is eating now
 191 19 is sleeping
-192 19 has taken a fork
-192 19 is eating now
-192 20 is sleeping
+191 19 has taken a fork
+191 19 is eating now
+191 20 is sleeping
 192 20 has taken a fork
 192 20 is eating now
 192 19 is sleeping
@@ -1555,18 +1365,18 @@
 192 20 has taken a fork
 192 20 is eating now
 192 19 is sleeping
-193 19 has taken a fork
-193 19 is eating now
-193 20 is sleeping
+192 19 has taken a fork
+192 19 is eating now
+192 20 is sleeping
 193 20 has taken a fork
 193 20 is eating now
 193 19 is sleeping
 193 19 has taken a fork
 193 19 is eating now
 193 20 is sleeping
-194 20 has taken a fork
-194 20 is eating now
-194 19 is sleeping
+193 20 has taken a fork
+193 20 is eating now
+193 19 is sleeping
 194 19 has taken a fork
 194 19 is eating now
 194 20 is sleeping
@@ -1576,9 +1386,9 @@
 194 19 has taken a fork
 194 19 is eating now
 194 20 is sleeping
-195 20 has taken a fork
-195 20 is eating now
-195 19 is sleeping
+194 20 has taken a fork
+194 20 is eating now
+194 19 is sleeping
 195 19 has taken a fork
 195 19 is eating now
 195 20 is sleeping
@@ -1588,9 +1398,9 @@
 195 19 has taken a fork
 195 19 is eating now
 195 20 is sleeping
-196 20 has taken a fork
-196 20 is eating now
-196 19 is sleeping
+195 20 has taken a fork
+195 20 is eating now
+195 19 is sleeping
 196 19 has taken a fork
 196 19 is eating now
 196 20 is sleeping
@@ -1598,8 +1408,8 @@
 196 20 is eating now
 196 19 is sleeping
 196 19 has taken a fork
-197 19 is eating now
-197 20 is sleeping
+196 19 is eating now
+196 20 is sleeping
 197 20 has taken a fork
 197 20 is eating now
 197 19 is sleeping
@@ -1609,15 +1419,9 @@
 197 20 has taken a fork
 197 20 is eating now
 197 19 is sleeping
-198 19 has taken a fork
-198 19 is eating now
-198 20 is sleeping
-198 20 has taken a fork
-198 20 is eating now
-198 19 is sleeping
-198 19 has taken a fork
-198 19 is eating now
-198 20 is sleeping
+197 19 has taken a fork
+197 19 is eating now
+197 20 is sleeping
 198 20 has taken a fork
 198 20 is eating now
 198 19 is sleeping
@@ -1630,13 +1434,10 @@
 199 19 has taken a fork
 199 19 is eating now
 199 20 is sleeping
-200 1 is dead
-[1;31m200 4 is dead
-[1;31m200 5 is dead
-[1;31m200 11 is dead
-200 14 is dead
-[1;31m200 17[1;31m is dead
-[1;31m200 3 is dead
-Simulation stops as philosopher 1 dies ..
-200 19[0m is sleeping
-[1;31m
+200 16 is dead
+200 18 is dead
+[1;31mSimulation stops as philosopher 16 dies ..
+[0m[1;31mSimulation stops as philosopher 18 dies ..
+[0m200 7 is dead
+[1;31mSimulation stops as philosopher 7 dies ..
+[0m

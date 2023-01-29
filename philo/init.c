@@ -6,7 +6,7 @@
 /*   By: aelsiddi <aelsiddi@student.42.ae>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 15:31:38 by aelsiddi          #+#    #+#             */
-/*   Updated: 2023/01/29 23:01:55 by aelsiddi         ###   ########.fr       */
+/*   Updated: 2023/01/29 23:23:31 by aelsiddi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -67,30 +67,6 @@ void	init_philo(t_info *info)
 	}
 	// printf("******************************************************************\n");
 	t_creat(info, ph);
-}
-
-void*	routine(void *incoming)
-{
-	t_philo *ph;
-	ph = (t_philo *)incoming;
-	int last_eat = 0;
-	while (1)
-	{
-		if(ph->meal_eaten == ph->info->max_eats)
-			break;
-		if (last_eat != ph->ph_id && check_straving(ph, &ph->start) && dead_finder(ph) != 1)
-		{
-			pthread_mutex_lock(&ph->r_fork);
-			pthread_mutex_lock(&ph->l_fork);
-			printer(ph, 1);
-			printer(ph, 2);
-			usleep(ph->info->time_to_eat);
-			pthread_mutex_unlock(&ph->l_fork);
-			pthread_mutex_unlock(&ph->r_fork);
-			printer(ph, 3);
-		}
-	}
-	return 0;
 }
 
 void t_creat(t_info *info, t_philo *ph)
