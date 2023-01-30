@@ -6,7 +6,7 @@
 /*   By: aelsiddi <aelsiddi@student.42.ae>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/23 18:08:02 by aelsiddi          #+#    #+#             */
-/*   Updated: 2023/01/27 18:58:04 by aelsiddi         ###   ########.fr       */
+/*   Updated: 2023/01/30 00:53:57 by aelsiddi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,6 +46,9 @@ void	ft_error(t_info *info, t_philo *ph, int flag)
 		pthread_mutex_lock(&info->print_lock);
 		printf("Simulation stops as philosopher %d dies ..\n",ph->ph_id);
 		pthread_mutex_unlock(&info->print_lock);
+		pthread_mutex_destroy(&info->print_lock);
+		pthread_mutex_destroy(&ph->r_fork);
+		pthread_mutex_destroy(&ph->l_fork);
 	}
 	printf("\033[0m");
 	exit(1);

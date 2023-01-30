@@ -6,7 +6,7 @@
 /*   By: aelsiddi <aelsiddi@student.42.ae>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/07 14:58:59 by aelsiddi          #+#    #+#             */
-/*   Updated: 2023/01/29 23:23:11 by aelsiddi         ###   ########.fr       */
+/*   Updated: 2023/01/30 01:54:19 by aelsiddi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -88,15 +88,3 @@ int check_straving(t_philo *ph, struct timeval *start)
 	}	
 }
 
-int dead_finder(t_philo *ph)
-{
-	int i = 0;
-	while(i < ph->info->max_eats)
-	{
-		if (ph[i].alive == 1)
-			i++;
-		else
-			return (0);
-	}
-	return (1);
-}

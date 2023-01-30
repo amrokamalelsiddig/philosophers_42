@@ -6,7 +6,7 @@
 /*   By: aelsiddi <aelsiddi@student.42.ae>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/07 14:56:54 by aelsiddi          #+#    #+#             */
-/*   Updated: 2023/01/29 23:24:30 by aelsiddi         ###   ########.fr       */
+/*   Updated: 2023/01/30 01:38:03 by aelsiddi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -59,7 +59,7 @@ int		ft_atoi(const char	*str);
 long	curr_time(struct timeval *start);
 void	printer(t_philo *ph, int  flag);
 int		check_straving(t_philo *ph, struct timeval *start);
-int		dead_finder(t_philo *ph);
+int 	check_pulse(t_philo *ph);
 
 //********** error.c **************//
 void	ft_error(t_info *info, t_philo *ph, int flag);

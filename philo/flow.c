@@ -6,7 +6,7 @@
 /*   By: aelsiddi <aelsiddi@student.42.ae>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/29 23:22:05 by aelsiddi          #+#    #+#             */
-/*   Updated: 2023/01/29 23:26:13 by aelsiddi         ###   ########.fr       */
+/*   Updated: 2023/01/30 01:54:55 by aelsiddi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,7 +37,6 @@ void printer(t_philo *ph, int  flag)
 		printf(" is dead\n");
 	}
 	pthread_mutex_unlock(&ph->info->print_lock);
-	
 }
 
 void*	routine(void *incoming)
@@ -47,10 +46,10 @@ void*	routine(void *incoming)
 	int last_eat = 0;
 	while (1)
 	{
-		if(ph->meal_eaten == ph->info->max_eats)
-			break;
-		if (last_eat != ph->ph_id && check_straving(ph, &ph->start) != 0 && dead_finder(ph) != 1)
-		{
+		// if(ph->meal_eaten == ph->info->max_eats && ph->info->max_eats ! -1)
+		// 	break;
+		if (last_eat != ph->ph_id && check_straving(ph, &ph->start) != 0 )
+		{		
 			pthread_mutex_lock(&ph->r_fork);
 			pthread_mutex_lock(&ph->l_fork);
 			printer(ph, 1);
