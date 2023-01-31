@@ -6,7 +6,7 @@
 /*   By: aelsiddi <aelsiddi@student.42abudhabi.a    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/29 23:22:05 by aelsiddi          #+#    #+#             */
-/*   Updated: 2023/01/31 03:52:42 by aelsiddi         ###   ########.fr       */
+/*   Updated: 2023/01/31 05:08:33 by aelsiddi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,7 +36,8 @@ void	flow(t_philo *ph, int flag)
 	{
 		printf(" is dead\n");
 		pthread_mutex_destroy(&ph->info->print_lock);
-		exit(0);
+		ft_error(ph->info, ph, 6);
+		// exit(0);
 	}
 	pthread_mutex_unlock(&ph->info->print_lock);
 }

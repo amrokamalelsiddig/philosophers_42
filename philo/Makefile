@@ -6,7 +6,7 @@
 #    By: aelsiddi <aelsiddi@student.42abudhabi.a    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/01/07 14:54:40 by aelsiddi          #+#    #+#              #
-#    Updated: 2023/01/31 00:43:05 by aelsiddi         ###   ########.fr        #
+#    Updated: 2023/01/31 04:55:12 by aelsiddi         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -15,7 +15,7 @@ SRCS		=	philo.c helper.c error.c init.c flow.c
 OBJES 		= ${SRCS:.c=.o}
 
 NAME 		= philo
-CC 			= gcc
+CC 			= gcc -pthread
 CFLAGS 		= -g -Wall -Wextra -Werror
 RM 			= rm -rf
 
