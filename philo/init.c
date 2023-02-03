@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   init.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aelsiddi <aelsiddi@student.42abudhabi.a    +#+  +:+       +#+        */
+/*   By: aelsiddi <aelsiddi@student.42.ae>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 15:31:38 by aelsiddi          #+#    #+#             */
-/*   Updated: 2023/01/31 03:50:54 by aelsiddi         ###   ########.fr       */
+/*   Updated: 2023/02/02 18:36:00 by aelsiddi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -79,10 +79,10 @@ void	t_creat(t_info *info, t_philo *ph)
 		if (result != 0)
 			ft_error(info, ph, 5);
 		i++;
-		usleep(300);
+		usleep(200);
 	}
 	i = 0 ;
-	usleep(200);
+	// usleep(200);
 	while (i < info->total_philo)
 	{
 		result2 = pthread_join(ph[i].thread, NULL);

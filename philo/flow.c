@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   flow.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aelsiddi <aelsiddi@student.42abudhabi.a    +#+  +:+       +#+        */
+/*   By: aelsiddi <aelsiddi@student.42.ae>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/29 23:22:05 by aelsiddi          #+#    #+#             */
-/*   Updated: 2023/01/31 05:08:33 by aelsiddi         ###   ########.fr       */
+/*   Updated: 2023/02/02 17:53:13 by aelsiddi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,6 +24,7 @@ void	flow(t_philo *ph, int flag)
 	{
 		printf(" is eating now\n");
 		ph->last_meal = curr_time(&ph->start);
+		ph->meal_eaten++;
 	}
 	if (flag == 3)
 	{
@@ -35,7 +36,7 @@ void	flow(t_philo *ph, int flag)
 	if (flag == 5)
 	{
 		printf(" is dead\n");
-		pthread_mutex_destroy(&ph->info->print_lock);
+		// pthread_mutex_destroy(&ph->info->print_lock);
 		ft_error(ph->info, ph, 6);
 		// exit(0);
 	}
@@ -51,7 +52,8 @@ void*	routine(void *incoming)
 	last_eat = 0;
 	while (1)
 	{
-		if (last_eat != ph->ph_id && check_straving(ph, &ph->start) != 0)
+		if (last_eat != ph->ph_id && check_straving(ph, &ph->start) != 0 \
+		&& ph->meal_eaten < ph->info->max_eats)
 		{	
 			pthread_mutex_lock(&ph->r_fork);
 			pthread_mutex_lock(&ph->l_fork);

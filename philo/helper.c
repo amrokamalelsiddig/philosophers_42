@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   helper.c                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aelsiddi <aelsiddi@student.42abudhabi.a    +#+  +:+       +#+        */
+/*   By: aelsiddi <aelsiddi@student.42.ae>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/07 14:58:59 by aelsiddi          #+#    #+#             */
-/*   Updated: 2023/01/31 05:05:27 by aelsiddi         ###   ########.fr       */
+/*   Updated: 2023/01/31 07:13:34 by aelsiddi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -77,7 +77,7 @@ int	check_straving(t_philo *ph, struct timeval *start)
 	gettimeofday(&end, NULL);
 	counter = (((end.tv_sec - start->tv_sec) * 1000) + \
 	((end.tv_usec - start->tv_usec) / 1000));
-	if (counter < ph->info->time_to_eat)
+	if (counter - ph->last_meal < ph->info->time_to_die)
 		return (1);
 	else
 	{

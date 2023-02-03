@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   philo.c                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aelsiddi <aelsiddi@student.42abudhabi.a    +#+  +:+       +#+        */
+/*   By: aelsiddi <aelsiddi@student.42.ae>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/07 14:57:37 by aelsiddi          #+#    #+#             */
-/*   Updated: 2023/01/31 05:35:47 by aelsiddi         ###   ########.fr       */
+/*   Updated: 2023/02/02 18:20:11 by aelsiddi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,5 @@ int	main(int ac, char **av)
 	if (ac < 5 || ac > 6 || !ft_isdigit(av))
 		ft_error(NULL, NULL, 2);
 	init(ac, av);
-
 	return (0);
 }

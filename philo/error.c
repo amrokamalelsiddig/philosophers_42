@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   error.c                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aelsiddi <aelsiddi@student.42abudhabi.a    +#+  +:+       +#+        */
+/*   By: aelsiddi <aelsiddi@student.42.ae>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/23 18:08:02 by aelsiddi          #+#    #+#             */
-/*   Updated: 2023/01/31 05:44:43 by aelsiddi         ###   ########.fr       */
+/*   Updated: 2023/02/02 18:42:10 by aelsiddi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,38 +34,49 @@ void	*ft_memset(void *b, int c, size_t len)
 	return (a);
 }
 
+void free_it(t_philo *ph, t_info *info, int flag)
+{
+	int i;
+
+	i = 0;
+	if (flag == 1)
+	{
+		while(i < info->total_philo)
+		{
+			free(&ph[i]);
+			i++;
+		}	
+	}
+	else if (flag == 2)
+	{
+		i = info->total_philo;
+		free(info);
+	}
+}
+
 void	ft_error(t_info *info, t_philo *ph, int flag)
 {	
+	(void)ph;
+	(void)info;
 	printf("\033[1;31m");
 	if (flag == 1 || flag == 2)
 		printf("Error : Wrong number/format of arguments ...\n");
 	if (flag == 3)
 		printf("Error : Arguments value/s not vaild ...\n");
 	if (flag == 4)
-	{
 		printf("Error : Mem allocation failed ...\n");
-		if (ph)
-			free(ph);
-		if (info)
-			free(info);
-	}
 	if (flag == 5)
-	{
 		printf("Error : Thread / Mutex lock creation failed ..\n");
-		free(ph);
-		free(info);
-	}
 	if (flag == 6)
 	{
-		// pthread_mutex_lock(&info->print_lock);
-		// printf("Simulation stops as philosopher %d dies ..\n", ph->ph_id);
-		// pthread_mutex_unlock(&info->print_lock);
-		// pthread_mutex_destroy(&info->print_lock);
-		// pthread_mutex_destroy(&ph->r_fork);
-		// pthread_mutex_destroy(&ph->l_fork);
-		// free_it(ph);
+		// while(ph->next != NULL)
+		// {
+		// 	free(ph->info);
+		// 	ph = ph->next;
+		// }	
 	}
-		// ft_memset(ph, 0, ph->info->total_philo);
+	// free(ph->info);
+	// free_it(ph,info, 1);
 	printf("\033[0m");
 	exit(1);
 }
