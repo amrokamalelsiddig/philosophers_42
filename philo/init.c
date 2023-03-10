@@ -6,7 +6,7 @@
 /*   By: aelsiddi <aelsiddi@student.42.ae>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 15:31:38 by aelsiddi          #+#    #+#             */
-/*   Updated: 2023/02/02 18:36:00 by aelsiddi         ###   ########.fr       */
+/*   Updated: 2023/03/10 20:06:42 by aelsiddi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ void	init(int ac, char **av )
 		ft_atoi(av[3]) < 60 || ft_atoi(av[4]) < 60 || \
 		ft_atoi(av[1]) < 1)
 		ft_error(NULL, NULL, 3);
-	info = malloc(sizeof(t_info) * ft_atoi(av[1]));
+	info = malloc(sizeof(t_info));
 	info->total_philo = ft_atoi(av[1]);
 	info->time_to_die = ft_atoi(av[2]);
 	info->time_to_eat = ft_atoi(av[3]);
@@ -54,6 +54,7 @@ void	init_philo(t_info *info)
 		ph[i].meal_eaten = 0;
 		ph[i].info = info;
 		ph[i].fork = 0;
+		ph[i].thread =
 		gettimeofday(&ph[i].start, NULL);
 		pthread_mutex_init(&ph[i].l_fork, NULL);
 		pthread_mutex_init(&ph[i].r_fork, NULL);
@@ -68,27 +69,31 @@ void	init_philo(t_info *info)
 
 void	t_creat(t_info *info, t_philo *ph)
 {
-	int	result;
-	int	result2;
+	// int	result;
+	// int	result2;
 	int	i;
 
 	i = 0;
 	while (i < info->total_philo)
 	{
-		result = pthread_create(&ph[i].thread, NULL, &routine, (void *) &ph[i]);
-		if (result != 0)
-			ft_error(info, ph, 5);
+		pthread_create(&ph[i].thread, NULL, &routine, (void *) &ph[i]);
+		// result = pthread_create(&ph[i].thread, NULL, &routine, (void *) &ph[i]);
+		// if (result != 0)
+		// 	ft_error(info, ph, 5);
 		i++;
-		usleep(200);
+		usleep(300);
 	}
 	i = 0 ;
 	// usleep(200);
 	while (i < info->total_philo)
 	{
-		result2 = pthread_join(ph[i].thread, NULL);
-		if (result2 != 0)
-			ft_error(info, ph, 5);
-		usleep(200);
+		pthread_join(ph[i].thread, NULL);
+		// result2 = pthread_join(ph[i].thread, NULL);
+		// if (result2 != 0)
+		// 	ft_error(info, ph, 5);
+		usleep(300);
 		i++;
 	}
+	// free(ph->info);
+	// free(ph);
 }

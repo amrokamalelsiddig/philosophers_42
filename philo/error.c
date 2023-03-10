@@ -6,7 +6,7 @@
 /*   By: aelsiddi <aelsiddi@student.42.ae>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/23 18:08:02 by aelsiddi          #+#    #+#             */
-/*   Updated: 2023/02/02 18:42:10 by aelsiddi         ###   ########.fr       */
+/*   Updated: 2023/03/10 23:05:51 by aelsiddi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,23 +34,17 @@ void	*ft_memset(void *b, int c, size_t len)
 	return (a);
 }
 
-void free_it(t_philo *ph, t_info *info, int flag)
+void free_it(t_philo *ph, t_info *info)
 {
 	int i;
-
+	int z;
+	
 	i = 0;
-	if (flag == 1)
+ 	z = info->total_philo;  
+	while(i < z)
 	{
-		while(i < info->total_philo)
-		{
-			free(&ph[i]);
-			i++;
-		}	
-	}
-	else if (flag == 2)
-	{
-		i = info->total_philo;
-		free(info);
+		free(&ph[i]);
+		i++;
 	}
 }
 
@@ -69,14 +63,9 @@ void	ft_error(t_info *info, t_philo *ph, int flag)
 		printf("Error : Thread / Mutex lock creation failed ..\n");
 	if (flag == 6)
 	{
-		// while(ph->next != NULL)
-		// {
-		// 	free(ph->info);
-		// 	ph = ph->next;
-		// }	
+		// free(ph->info);
 	}
-	// free(ph->info);
-	// free_it(ph,info, 1);
+	free_it(ph,info);
 	printf("\033[0m");
 	exit(1);
 }
