@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   utility.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aelsiddi <aelsiddi@student.42.ae>          +#+  +:+       +#+        */
+/*   By: aelsiddi <aelsiddi@student.42abudhabi.a    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/11 08:28:41 by aelsiddi          #+#    #+#             */
-/*   Updated: 2023/03/11 09:18:38 by aelsiddi         ###   ########.fr       */
+/*   Updated: 2023/03/12 00:20:09 by aelsiddi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-# include "philo.h"
+#include "philo.h"
 
 unsigned int	time_calc(void)
 {
@@ -22,7 +22,7 @@ unsigned int	time_calc(void)
 	return (res);
 }
 
-void 	print_error()
+void	print_error(void)
 {
 	ft_putstr_fd("Error !!!", 2);
 }
@@ -66,21 +66,5 @@ int	greedy_e(t_philo *ph)
 	}
 	pthread_mutex_unlock(&ph->table->forks[ph->right_fork]);
 	pthread_mutex_unlock(&ph->table->forks[ph->left_fork]);
-	return (0);
-}
-
-int	greedy_o(t_philo *ph)
-{
-	pthread_mutex_lock(&ph->table->forks[ph->right_fork]);
-	pthread_mutex_lock(&ph->table->forks[ph->left_fork]);
-	if (ph->table->greedy_forks[ph->left_fork] == ph->philo_pos
-		|| ph->table->greedy_forks[ph->right_fork] == ph->philo_pos)
-	{
-		pthread_mutex_unlock(&ph->table->forks[ph->left_fork]);
-		pthread_mutex_unlock(&ph->table->forks[ph->right_fork]);
-		return (1);
-	}
-	pthread_mutex_unlock(&ph->table->forks[ph->left_fork]);
-	pthread_mutex_unlock(&ph->table->forks[ph->right_fork]);
 	return (0);
 }

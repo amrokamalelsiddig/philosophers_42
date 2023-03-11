@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   flow.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aelsiddi <aelsiddi@student.42.ae>          +#+  +:+       +#+        */
+/*   By: aelsiddi <aelsiddi@student.42abudhabi.a    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/07 14:58:59 by aelsiddi          #+#    #+#             */
-/*   Updated: 2023/03/11 09:52:45 by aelsiddi         ###   ########.fr       */
+/*   Updated: 2023/03/12 00:14:08 by aelsiddi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-# include "philo.h"
+#include "philo.h"
 
 void	*flow(void *incoming)
 {

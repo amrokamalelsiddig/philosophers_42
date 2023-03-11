@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   action_2.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aelsiddi <aelsiddi@student.42.ae>          +#+  +:+       +#+        */
+/*   By: aelsiddi <aelsiddi@student.42abudhabi.a    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/29 23:22:05 by aelsiddi          #+#    #+#             */
-/*   Updated: 2023/03/11 09:49:13 by aelsiddi         ###   ########.fr       */
+/*   Updated: 2023/03/12 00:14:01 by aelsiddi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-# include "philo.h"
+#include "philo.h"
 
 int	sleep_action(t_philo *ph)
 {

@@ -3,16 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   libft.c                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aelsiddi <aelsiddi@student.42.ae>          +#+  +:+       +#+        */
+/*   By: aelsiddi <aelsiddi@student.42abudhabi.a    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 15:31:38 by aelsiddi          #+#    #+#             */
-/*   Updated: 2023/03/11 08:27:47 by aelsiddi         ###   ########.fr       */
+/*   Updated: 2023/03/12 00:14:37 by aelsiddi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-# include "philo.h"
-
 #include "philo.h"
+
 int	ft_atoi(const char *str)
 {
 	int	i;
@@ -61,7 +60,6 @@ void	*ft_calloc(size_t count, size_t size)
 	ft_bzero(ptr, (count * size));
 	return (ptr);
 }
-
 
 void	ft_putstr_fd(char *s, int fd)
 {

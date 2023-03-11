@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   start.c                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aelsiddi <aelsiddi@student.42.ae>          +#+  +:+       +#+        */
+/*   By: aelsiddi <aelsiddi@student.42abudhabi.a    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/11 08:28:38 by aelsiddi          #+#    #+#             */
-/*   Updated: 2023/03/11 09:34:16 by aelsiddi         ###   ########.fr       */
+/*   Updated: 2023/03/12 00:19:49 by aelsiddi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,7 +41,8 @@ int	init(t_table *info)
 	info->greedy_mutex = malloc(sizeof(pthread_mutex_t));
 	info->death = malloc(sizeof(pthread_mutex_t));
 	if (!info->p_mutex || !info->greedy_mutex || !info->ph \
-		|| !info->greedy_forks || !info->death || !info->f_state) // !info->thread || !info->forks
+		|| !info->greedy_forks || !info->death || \
+		!info->f_state)
 	{
 		print_error();
 		return (0);
@@ -54,12 +55,12 @@ int	init_threads(t_table *info)
 	int			i;
 	int			holder;
 	int			holder2;
-	
-	
+
 	i = 0;
 	while (i < info->total_num)
 	{
-		holder = pthread_create(&info->thread[i], NULL,flow, (void *)&info->ph[i]);
+		holder = pthread_create(&info->thread[i], NULL, flow, \
+		(void *)&info->ph[i]);
 		if (holder != 0)
 			print_error();
 		usleep(100);

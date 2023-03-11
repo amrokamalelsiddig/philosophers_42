@@ -3,18 +3,19 @@
 /*                                                        :::      ::::::::   */
 /*   parsing.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aelsiddi <aelsiddi@student.42.ae>          +#+  +:+       +#+        */
+/*   By: aelsiddi <aelsiddi@student.42abudhabi.a    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/11 08:28:33 by aelsiddi          #+#    #+#             */
-/*   Updated: 2023/03/11 09:00:41 by aelsiddi         ###   ########.fr       */
+/*   Updated: 2023/03/12 00:19:17 by aelsiddi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-# include "philo.h"
+#include "philo.h"
 
 int	int_check(char **av)
 {
-	if (ft_atoi(av[1]) > 200 || ft_atoi(av[1]) < 1 || ft_atoi(av[2]) < 60 || ft_atoi(av[4]) < 60 || ft_atoi(av[3]) < 60)
+	if (ft_atoi(av[1]) > 200 || ft_atoi(av[1]) < 1 || \
+	ft_atoi(av[2]) < 60 || ft_atoi(av[4]) < 60 || ft_atoi(av[3]) < 60)
 	{
 		print_error();
 		return (0);
@@ -76,4 +77,20 @@ void	save(char **av, t_table *ph)
 			ph->meals_to_eat = ft_atoi(av[5]);
 	else
 		ph->meals_to_eat = -1;
+}
+
+int	greedy_o(t_philo *ph)
+{
+	pthread_mutex_lock(&ph->table->forks[ph->right_fork]);
+	pthread_mutex_lock(&ph->table->forks[ph->left_fork]);
+	if (ph->table->greedy_forks[ph->left_fork] == ph->philo_pos
+		|| ph->table->greedy_forks[ph->right_fork] == ph->philo_pos)
+	{
+		pthread_mutex_unlock(&ph->table->forks[ph->left_fork]);
+		pthread_mutex_unlock(&ph->table->forks[ph->right_fork]);
+		return (1);
+	}
+	pthread_mutex_unlock(&ph->table->forks[ph->left_fork]);
+	pthread_mutex_unlock(&ph->table->forks[ph->right_fork]);
+	return (0);
 }
